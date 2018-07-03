@@ -7,7 +7,9 @@
     "example": "example"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "keywords": [
     "sri lanka",
@@ -27,10 +29,12 @@
     "is-valid-domain": "0.0.2",
     "url": "^0.11.0",
     "valid-url": "^1.0.9",
-    "x-ray": "^2.0.3"
+    "x-ray": "^2.0.3",
+    "snyk": "^1.88.0"
   },
   "bugs": {
     "url": "https://github.com/ishan-marikar/node-rainbow-pages/issues"
   },
-  "homepage": "https://github.com/ishan-marikar/node-rainbow-pages#readme"
+  "homepage": "https://github.com/ishan-marikar/node-rainbow-pages#readme",
+  "snyk": true
 }
